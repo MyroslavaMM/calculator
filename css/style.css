@@ -1,0 +1,72 @@
+/*GENERAL STYLES*/
+
+.calc {
+	margin: 0px 480px 0px 480px;
+	background-position: top center;
+	display: flex;
+	flex-direction: column;
+	
+	min-height: 50vh;
+	font-family: Arial;
+	font-size: 25px;
+	border: 2px solid;
+	border-radius: 7%;
+	padding-left: 13px;
+	width: 240px;
+	height: 420px;
+	background: linear-gradient(steelblue, blanchedalmond);
+
+}
+
+.calc-screen p {
+	padding: 30px;
+	margin-bottom: 15px;
+	text-align: right;
+	color: white;
+
+}
+
+.cbutton {
+	width: 240px;
+	height: 800px;
+}
+
+button {
+	color: blue;
+	font-weight: bold;
+	padding: 15px;
+	text-align: center;
+	margin - top: 2px;
+	margin - button: 2px;
+	margin-right: 2px;
+	margin-left: 3px;
+	border: 5px;
+	border-radius: 30px;
+	height: 50px;
+	width: 50px;
+	cursor: pointer;	
+	user-select: none; /* щоб не вибирало об'єк синім*/
+}
+
+.mybtn {
+	float: left;
+	margin: 3px;
+}
+
+#btn {
+	background-color: skyblue;
+}
+
+.mybtn:hover {
+	color: grey;
+	background-color: lavender;
+	filter: brightness(0.8);
+	}
+
+.mybtn:active {
+	filter: brightness(1.0);
+	filter: sepia(20%);
+}
+
+
+
